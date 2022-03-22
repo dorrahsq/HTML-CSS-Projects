@@ -1,5 +1,5 @@
 <p align="center">
-<img src="" width=100%/>
+<img src="https://github.com/dorrahsq/HTML-CSS-Projects/blob/main/icecreamLandingPage/photos/top.svg" width=100%/>
 </p>
 
  <samp>
@@ -9,7 +9,8 @@ _<h1 align=center> HTML&CSS Projects </h1>_
 <details>
 
 <summary> Table of Contents </summary>
-
+<br/>
+ 
 1)[ Icecream Landing Page. ](#Icecream)
 
 </details>
@@ -24,5 +25,5 @@ _<h1 align=center> HTML&CSS Projects </h1>_
   </samp>
 
 <p align="center">
-<img src="" width=100%/>
+<img src="https://github.com/dorrahsq/HTML-CSS-Projects/blob/main/icecreamLandingPage/photos/bottom.svg" width=100%/>
 </p>
