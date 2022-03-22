@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Arima+Madurai:wght@100;900&family=Dancing+Script:wght@500&family=Itim&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  width: 100%;
+  background-color: rgba(247, 229, 213, 0.329);
+  height: 100vh;
+  position: absolute;
+  z-index: -5;
+}
+.nav {
+  padding: 1.5vw 0 1vw;
+  color: rgb(34, 34, 34);
+  font-family: "Actor", sans-serif;
+  font-family: "Itim", cursive;
+  text-transform: capitalize;
+  font-size: 1.2vw;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+.nav ul li:not(:last-child):not(:first-child) {
+  margin: 0 4vw;
+  position: relative;
+}
+.nav ul li:last-child {
+  position: absolute;
+  right: 5vw;
+  width: 1.5vw;
+}
+.nav svg {
+  width: 2vw;
+}
+.circle1,
+.circle2,
+.circle3 {
+  border-radius: 50%;
+  position: absolute;
+}
+.circle1 {
+  width: 70vw;
+  height: 70vw;
+  background-color: rgba(255, 192, 203, 0.788);
+  z-index: -4;
+  top: -28vw;
+  right: -20vw;
+}
+.circle2 {
+  width: 36vw;
+  height: 35vw;
+  background-color: #fbe6d3;
+  z-index: -3;
+  bottom: -15vw;
+  right: 20vw;
+}
+.circle3 {
+  width: 20vw;
+  height: 20vw;
+  background-color: rgba(233, 200, 166, 0.877);
+  z-index: -3;
+  top: -5vw;
+  left: -4vw;
+}
+.imageBackground {
+  display: block;
+  width: 46vw;
+  position: absolute;
+  z-index: -1;
+  bottom: -6vw;
+  left: -5vw;
+}
+.active::before {
+  content: "";
+  display: block;
+  width: 0.6vw;
+  height: 0.6vw;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(179, 56, 103);
+  bottom: -50%;
+  left: 35%;
+}
+.active {
+  font-weight: 900;
+  color: black;
+}
+.content {
+  width: 42vw;
+  margin: 12vw 0 0 6vw;
+  text-transform: capitalize;
+  font-family: "Itim", cursive;
+  text-align: center;
+}
+.content h1 {
+  text-transform: uppercase;
+  font-size: 4vw;
+  color: rgb(78, 78, 78);
+}
+.content h1 span {
+  color: rgb(179, 56, 103);
+  font-size: 5vw;
+}
+section {
+  line-height: 4px;
+  margin-top: 2.4vw;
+}
+section:last-child {
+  color: gray;
+}
+.logo {
+  width: 1.5vw;
+  margin: 0 8vw 0 6vw;
+}
+button {
+  margin-top: 4vw;
+}
+.cta {
+  position: relative;
+  padding: 0.7vw 1.5vw;
+  border: none;
+  background: none;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #d496a557;
+  width: 95%;
+  height: 100%;
+}
+.cta span {
+  position: relative;
+  font-family: "Actor", sans-serif;
+  font-size: 1.3vw;
+  letter-spacing: 0.5vw;
+  color: #464646;
+  text-transform: capitalize;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #313233;
+  stroke-width: 2;
+}
+.backgroundText,
+.backgroundText2 {
+  position: absolute;
+  font-family: "Dancing Script", cursive;
+}
+.backgroundText {
+  top: 30vw;
+  right: 22vw;
+  font-size: 12vw;
+  color: rgba(179, 56, 103, 0.178);
+}
+.backgroundText2 {
+  top: 12vw;
+  left: 5.5vw;
+  font-size: 3vw;
+  color: rgba(151, 115, 81, 0.26);
+}
+.btn {
+  background-color: #23456700;
+  border-style: none;
+}
+.dropdown-item {
+  text-transform: capitalize;
+}
+.miniNav {
+  display: none;
+}
+.dropdown i,
+.dropdown-toggle::after {
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .miniNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+  }
+  .miniNav {
+    margin: -3vw 0 0;
+  }
+}
