@@ -17,9 +17,9 @@ _<h1 align=center> HTML&CSS Projects </h1>_
 <br/><br/><br/><br/>
 <a name="Icecream"></a>
 
-## 1- Icecream Landing Page
+## 1)Icecream Landing Page
 
-<img src="" width="500px">
+<img src="https://github.com/dorrahsq/HTML-CSS-Projects/blob/main/icecreamLandingPage/photos/icecreamProject.png" width="600px">
 
   </samp>
 
