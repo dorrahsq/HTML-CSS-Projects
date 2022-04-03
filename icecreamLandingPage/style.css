@@ -130,7 +130,7 @@ button {
 }
 .cta {
   position: relative;
-  padding: 0.7vw 1.5vw;
+  padding: 0.9vw 1.8vw;
   border: none;
   background: none;
 }
@@ -148,7 +148,7 @@ button {
 .cta span {
   position: relative;
   font-family: "Actor", sans-serif;
-  font-size: 1.3vw;
+  font-size: 1.5vw;
   letter-spacing: 0.5vw;
   color: #464646;
   text-transform: capitalize;
@@ -208,5 +208,15 @@ button {
   .miniNav {
     margin: -3vw 0 0;
   }
-
+  .cta svg {
+    stroke-width: 1;
+    margin-left: 0px;
+    padding-top: 3px;
+  }
+  .cta {
+    font-size: 2vw;
+  }
+  section {
+    line-height: 2px;
+  }
 }
