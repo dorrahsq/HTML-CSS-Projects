@@ -20,7 +20,7 @@ _<h1 align=center> HTML&CSS Projects </h1>_
 
 ## 1)Icecream Landing Page
 
-<img src="https://github.com/dorrahsq/HTML-CSS-Projects/blob/main/icecreamLandingPage/photos/icecreamProject.png" width="600px">
+<img align="left" src="https://github.com/dorrahsq/HTML-CSS-Projects/blob/main/icecreamLandingPage/photos/icecreamProject.png" width="600px"> <p> <br/><br/><br/><br/><br/><br/><br/><br/> <h3 align="center" > [_Visit_](https://icecreamlandingpage.herokuapp.com)</h3> </p>
 
   </samp>
 
