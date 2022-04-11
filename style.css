@@ -37,11 +37,13 @@
 .nav ul li:not(:last-child):not(:first-child) {
   margin: 0 4vw;
   position: relative;
+  cursor: pointer;
 }
 .nav ul li:last-child {
   position: absolute;
   right: 5vw;
   width: 1.5vw;
+  cursor: pointer;
 }
 .nav svg {
   width: 2vw;
@@ -110,6 +112,7 @@
   text-transform: uppercase;
   font-size: 4vw;
   color: rgb(78, 78, 78);
+  animation: moveDown 2s ease-in;
 }
 .content h1 span {
   color: rgb(179, 56, 103);
@@ -128,12 +131,18 @@ section:last-child {
 }
 button {
   margin-top: 4vw;
+  animation: moveUp 2s ease-in;
 }
 .cta {
   position: relative;
   padding: 0.9vw 1.8vw;
   border: none;
   background: none;
+  transition: all 1s;
+}
+.cta:hover {
+  padding-right: 5vw;
+  cursor: pointer;
 }
 .cta:before {
   content: "";
@@ -164,6 +173,7 @@ button {
   stroke: #313233;
   stroke-width: 2;
 }
+
 .backgroundText,
 .backgroundText2 {
   position: absolute;
@@ -190,6 +200,7 @@ button {
 }
 .miniNav {
   display: none;
+  cursor: pointer;
 }
 .dropdown i,
 .dropdown-toggle::after {
@@ -219,5 +230,28 @@ button {
   }
   section {
     line-height: 2px;
+  }
+}
+
+@keyframes moveDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-3vw);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(3vw);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
